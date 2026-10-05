@@ -1,17 +1,16 @@
 [
   {
-    "name": "EstrenoLatinoHD",
+    "name": "DeepFlix",
     "type": "json_imdb",
     "imdbType": "movie",
     "itemType": "http_url",
     "httpUrlTargetKey": "url",
     "jsonResultsKey": "streams",
-    "torrentNameTargetKey": "title",
-    "sizeAttr": "size_bytes",
+    "torrentNameTargetKey": "description",
     "searchPattern": {
       "movie": "movie/%imdbId",
       "tv": "series/%imdbId:%season:%episode"
     },
-    "url": "https://estrenolatinohd.com/stremio/HdWNwMhNHplJnZ02Jqz0Daka919agGRt/stream/%searchPattern.json"
+    "url": "https://mg.homelabx.qzz.io/stream/%searchPattern.json"
   }
 ]
