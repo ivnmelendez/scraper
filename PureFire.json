@@ -43,5 +43,20 @@
       "tv": "series/%imdbId:%season:%episode"
     },
     "url": "https://stremthru.13377001.xyz/stremio/torz/eyJpbmRleGVycyI6bnVsbCwic3RvcmVzIjpbeyJjIjoicDJwIiwidCI6IiJ9XSwiZmlsdGVyIjoiR3JvdXAgIT0gXCJYWFhcIiJ9/stream/%searchPattern.json"
+  },
+    {
+    "name": "EstrenoLatinoHD",
+    "type": "json_imdb",
+    "imdbType": "movie",
+    "itemType": "http_url",
+    "httpUrlTargetKey": "url",
+    "jsonResultsKey": "streams",
+    "torrentNameTargetKey": "title",
+    "sizeAttr": "size_bytes",
+    "searchPattern": {
+      "movie": "movie/%imdbId",
+      "tv": "series/%imdbId:%season:%episode"
+    },
+    "url": "https://estrenolatinohd.com/stremio/HdWNwMhNHplJnZ02Jqz0Daka919agGRt/stream/%searchPattern.json"
   }
 ]
